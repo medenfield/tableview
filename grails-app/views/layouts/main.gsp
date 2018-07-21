@@ -15,6 +15,23 @@
 </head>
 <body>
 
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <a class="navbar-brand" href="/#">
+      <asset:image src="grails.svg" alt="Grails Logo"/>
+    </a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="nav navbar-nav navbar-right">
+          <g:pageProperty name="page.nav" />
+      </ul>
+    </div>
+  </nav>
+
+
+<!--
     <div class="navbar navbar-default navbar-static-top" role="navigation">
         <div class="container">
             <div class="navbar-header">
@@ -35,7 +52,7 @@
             </div>
         </div>
     </div>
-
+-->
     <g:layoutBody/>
 
     <div class="footer" role="contentinfo"></div>
