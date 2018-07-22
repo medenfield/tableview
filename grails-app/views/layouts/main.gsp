@@ -10,7 +10,7 @@
     <asset:link rel="icon" href="favicon.ico" type="image/x-ico" />
 
     <asset:stylesheet src="application.css"/>
-
+<link href="https://cdnjs.cloudflare.com/ajax/libs/datatables/1.10.12/css/dataTables.bootstrap4.min.css" rel="stylesheet"/>
     <g:layoutHead/>
 </head>
 <body>
